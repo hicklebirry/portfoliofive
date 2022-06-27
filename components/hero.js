@@ -17,10 +17,10 @@ const Hero = () => {
                     <p className="mt-5 sm:mt-10 lg:w-10/12 text-[#000F08] font-normal text-center text-sm sm:text-lg">Hi, I&apos;m Hunter. I used to sell software, now I build websites.</p>
                 </div>
                 <div className="flex justify-center items-center">
-                    <button className="ml-4 focus:outline-none bg-transparent transition duration-150 ease-in-out hover:border-[#63768D] lg:text-xl lg:font-bold  hover:text-[#63768D] rounded border border-[#414288] text-[#414288] px-4 sm:px-10 py-2 sm:py-4 text-sm">
+                    <button className="ml-4 bg-transparent transition duration-150 ease-in-out hover:border-[#63768D] lg:text-xl lg:font-bold  hover:text-[#63768D] rounded border border-[#414288] text-[#414288] px-4 sm:px-10 py-2 sm:py-4 text-sm">
                         <Link href="./about"><a>About Me</a></Link>
                     </button>
-                    <button className="ml-4 focus:outline-none bg-transparent transition duration-150 ease-in-out hover:border-[#63768D] lg:text-xl lg:font-bold  hover:text-[#63768D] rounded border border-[#414288] text-[#414288] px-4 sm:px-10 py-2 sm:py-4 text-sm">
+                    <button className="ml-4 bg-transparent transition duration-150 ease-in-out hover:border-[#63768D] lg:text-xl lg:font-bold  hover:text-[#63768D] rounded border border-[#414288] text-[#414288] px-4 sm:px-10 py-2 sm:py-4 text-sm">
                         <Link href="./services"><a>Services</a></Link>
                     </button>
                 </div>
