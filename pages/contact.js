@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import 'tw-elements'
+import Script from 'next/script'
 
 export default function Services() {
     return (
@@ -125,6 +125,7 @@ export default function Services() {
                         </form>
                     </div>
                 </div>
+                <Script src="./node_modules/tw-elements/dist/js/index.min.js"></Script>
             </body>
         </html>
 

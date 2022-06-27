@@ -15,7 +15,6 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
     </div>
-    <Script src="./node_modules/tw-elements/dist/js/index.min.js"></Script>
   </>
 }
 

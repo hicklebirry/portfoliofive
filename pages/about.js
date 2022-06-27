@@ -50,6 +50,7 @@ export default function About() {
                 <hr className='mx-3 mb-20 mt-20'/>
                 <div className='mb-20'><Teaser /></div>
                 <Script type='' src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></Script>
+                <Script src="./node_modules/tw-elements/dist/js/index.min.js"></Script>
             </body>
         </html>
 
