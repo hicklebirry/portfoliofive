@@ -49,7 +49,7 @@ export default function About() {
                 <Techstack />
                 <hr className='mx-3 mb-20 mt-20'/>
                 <div className='mb-20'><Teaser /></div>
-                <Script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></Script>
+                <Script type='' src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></Script>
             </body>
         </html>
 
