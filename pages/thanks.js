@@ -17,15 +17,15 @@ export default function Thanks() {
                             <span className="text-[#CD533B]">Today</span><br /> <br />
                         </h1>
                     </div>
-                    <div class="block p-6 rounded-lg shadow-lg bg-[#CD533B] md:w-2/6 sm:w-full mx-5">
+                    <div className="block p-6 rounded-lg shadow-lg bg-[#CD533B] md:w-2/6 sm:w-full mx-5">
                         <form action='https://submit-form.com/jdIdxzOx'>
                             <input
                                 type="hidden"
                                 name="_redirect"
                                 value="/thanks"
                             />
-                            <div class="form-group mb-6">
-                                <input type="text" name='name' class="form-control block
+                            <div className="form-group mb-6">
+                                <input type="text" name='name' className="form-control block
                                 w-full
                                 px-3
                                 py-1.5
@@ -42,8 +42,8 @@ export default function Thanks() {
                                     placeholder="Name"
                                     required="true" />
                             </div>
-                            <div class="form-group mb-6">
-                                <input type="text" name='phone' class="form-control block
+                            <div className="form-group mb-6">
+                                <input type="text" name='phone' className="form-control block
                                 w-full
                                 px-3
                                 py-1.5
@@ -60,8 +60,8 @@ export default function Thanks() {
                                     placeholder="Phone (0412 345 678)"
                                     required="true" />
                             </div>
-                            <div class="form-group mb-6">
-                                <input type="email" name='email' class="form-control block
+                            <div className="form-group mb-6">
+                                <input type="email" name='email' className="form-control block
                                 w-full
                                 px-3
                                 py-1.5
@@ -78,9 +78,9 @@ export default function Thanks() {
                                     placeholder="Email address"
                                     required="true" />
                             </div>
-                            <div class="form-group mb-6">
+                            <div className="form-group mb-6">
                                 <textarea
-                                    class="
+                                    className="
                                     form-control
                                     block
                                     w-full
@@ -104,7 +104,7 @@ export default function Thanks() {
                                     required="true"
                                 ></textarea>
                             </div>
-                            <button type="submit" class="
+                            <button type="submit" className="
                             w-full
                             px-6
                             py-2.5

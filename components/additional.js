@@ -23,7 +23,7 @@ const Additional = () => {
                             Integrations allow you to connect 3rd Party Apps to your site to supercharge user
                             experience. Connect Intercom to start more conversations with visitors, sell products
                             online with Shopify or, Wish return customers a happy birthday with Mailchimp. Get in
-                            touch today for the full list of integrations. If your app isn't available, Zapier or Make
+                            touch today for the full list of integrations. If your app isn&apos;t available, Zapier or Make
                             can be configured to connect with an additional 5000+ apps.
                         </p>
                     </details>

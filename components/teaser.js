@@ -17,7 +17,7 @@ const Teaser = () => {
                             Design
                         </h3>
                         <p className="text-sm leading-6 text-black text-center">
-                            Once the scope is agreed on, initial design work can begin. This works best when all parties get involved in the process. Let those idea's loose!
+                            Once the scope is agreed on, initial design work can begin. This works best when all parties get involved in the process. Let those idea&apos;s loose!
                         </p>
                     </div>
                     <div className="p-6 bg-white rounded-lg shadow-xl">
@@ -25,7 +25,7 @@ const Teaser = () => {
                             Mockup
                         </h3>
                         <p className="text-sm leading-6 text-black text-center">
-                            Before deployment, you'll receive final mockups of your new website in .jpg format for approval. Keep an eye on your email! They come faster than you think.
+                            Before deployment, you&apos;ll receive final mockups of your new website in .jpg format for approval. Keep an eye on your email! They come faster than you think.
                         </p>
                     </div>
                     <div className="p-6 bg-white rounded-lg shadow-xl">

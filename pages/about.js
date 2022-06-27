@@ -20,7 +20,7 @@ export default function About() {
 
                     <div className='md:w-1/2 sm:w-full grid place-items-center sm:pb-4'>
                         <div className="flex flex-row justify-center items-center mt-32">
-                            <Image src={"https://i.imgur.com/Fp3hUY0.png"} width={100} height={100} className="mx-auto" />
+                            <Image src={"https://i.imgur.com/Fp3hUY0.png"} width={100} height={100} className="mx-auto" alt='avatar'/>
                         </div>
                         <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-[#3F0D12] font-black leading-7 md:leading-10">
                             Get to know me
