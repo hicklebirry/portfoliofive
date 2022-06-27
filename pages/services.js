@@ -1,8 +1,8 @@
-import 'tw-elements'
 import Additional from '../components/additional'
 import Cta from '../components/cta'
 import Modals from '../components/modals'
 import Head from 'next/head'
+import Script from 'next/script'
 
 export default function Services() {
     return (

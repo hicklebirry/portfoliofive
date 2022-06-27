@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import 'tw-elements'
+import Script from 'next/script'
 
 export default function Thanks() {
     return (
