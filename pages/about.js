@@ -5,6 +5,7 @@ import Btnbounce from '../components/btnbounce'
 import Teaser from '../components/teaser'
 import Techstack from '../components/techstack'
 import Timeline from '../components/timeline'
+import Script from 'next/script'
 
 export default function About() {
     return (
@@ -29,7 +30,7 @@ export default function About() {
                     </div>
                     <div className='md:w-1/2 sm:w-full mb-10'>{/* Section two, position right bigreeens, flex below smaller screens */}
                         <div className='text-center block p-6 border rounded bg-white mx-3 mt-20 break-normal shadow-xl'>
-                            <div>Hi, I'm <strong>Hunter</strong>.</div><br />
+                            <div>Hi, I&apos;m <strong>Hunter</strong>.</div><br />
                             <div>
                                 I develop websites for businesses, hobbyists and creators. <br /><br/>
                                 
@@ -48,7 +49,7 @@ export default function About() {
                 <Techstack />
                 <hr className='mx-3 mb-20 mt-20'/>
                 <div className='mb-20'><Teaser /></div>
-                <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
+                <Script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></Script>
             </body>
         </html>
 
