@@ -1,6 +1,7 @@
 import Footer from '../components/footer'
 import { Navbar } from '../components/navbar'
 import '../styles/globals.css'
+import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
   return <>
@@ -14,6 +15,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
     </div>
+    <Script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></Script>
   </>
 }
 
