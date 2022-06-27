@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+details[open] summary {
+  background: #CD533B;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+details[open] summary::after {
+  content: "-";
+  font-family: 'Montserrat', sans-serif;
+}
+
+details[open] summary ~ * {
+  animation: slideDown 0.3s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+}
+
+details[open] summary p {
+  opacity: 0;
+  animation-name: showContent;
+  animation-duration: 0.6s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes showContent {
+  from {
+  opacity: 0;
+  height: 0;
+  }
+  to {
+  opacity: 1;
+  height: auto;
+  }
+}
+@keyframes slideDown {
+  from {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  }
+
+  to {
+  opacity: 1;
+  height: auto;
+  }
+}
