@@ -18,7 +18,6 @@ export default function Services() {
                 <hr className='md:mx-40 mt-12 sm:mx-40 mx-5' />
                 <Additional />
                 <Cta />
-                <Script src="./node_modules/tw-elements/dist/js/index.min.js"></Script>
             </body>
         </html>
 

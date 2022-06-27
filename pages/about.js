@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import 'tw-elements'
 import Btnbounce from '../components/btnbounce'
 import Teaser from '../components/teaser'
 import Techstack from '../components/techstack'
@@ -49,8 +48,7 @@ export default function About() {
                 <Techstack />
                 <hr className='mx-3 mb-20 mt-20'/>
                 <div className='mb-20'><Teaser /></div>
-                <Script type='' src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></Script>
-                <Script src="./node_modules/tw-elements/dist/js/index.min.js"></Script>
+                <Script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></Script>
             </body>
         </html>
 

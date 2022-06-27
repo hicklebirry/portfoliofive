@@ -125,7 +125,6 @@ export default function Services() {
                         </form>
                     </div>
                 </div>
-                <Script src="./node_modules/tw-elements/dist/js/index.min.js"></Script>
             </body>
         </html>
 

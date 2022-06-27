@@ -16,7 +16,6 @@ export default function Home() {
       </Head>
       <body>
       <Hero />
-      <Script src="./node_modules/tw-elements/dist/js/index.min.js"></Script>
       </body>
     </div>
   )
