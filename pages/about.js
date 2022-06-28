@@ -18,35 +18,37 @@ export default function About() {
             <body>
                 <div className='container md:inline-flex mx-auto mb-10'>
 
-                    <div className='md:w-1/2 sm:w-full grid place-items-center sm:pb-4'>
-                        <div className="flex flex-row justify-center items-center mt-32">
-                            <Image src={"https://i.imgur.com/Fp3hUY0.png"} width={100} height={100} className="mx-auto" alt='avatar'/>
+                    <div className='md:w-1/2 sm:order-2 md:order-1 lg:order-1 sm:w-full grid place-items-center sm:pb-4'>
+                        <div className="flex flex-row justify-center items-center mt-32 mb-5">
+                            <Image src={"https://i.imgur.com/Fp3hUY0.png"} width={100} height={100} className="mx-auto" alt='avatar' />
                         </div>
                         <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-[#3F0D12] font-black leading-7 md:leading-10">
                             Get to know me
                         </p>
-                        <br /> <br /><br /><br /><br /><br /><br />
+                        <br /> <br />
+                        <div className='text-center'>
+                            <Btnbounce />
+                        </div>
+                        <br /><br /><br /><br /><br />
                     </div>
-                    <div className='md:w-1/2 sm:w-full mb-10'>{/* Section two, position right bigreeens, flex below smaller screens */}
+                    <div className='sm:order-3 md:order-2 lg:order-2 md:w-1/2 sm:w-full mb-10'>{/* Section two, position right bigreeens, flex below smaller screens */}
                         <div className='text-center block p-6 border rounded bg-white mx-3 mt-20 break-normal shadow-xl'>
                             <div>Hi, I&apos;m <strong>Hunter</strong>.</div><br />
                             <div>
-                                I develop websites for businesses, hobbyists and creators. <br /><br/>
-                                
-                                I also make a killer cup of coffee.<br /><br/>
+                                I develop websites for businesses, hobbyists and creators. <br /><br />
 
-                                Completing my Bachelor Degree in Information Technology, majoring in Computer Science at the University of Southern Queensland.<br/><br/>
+                                I also make a killer cup of coffee.<br /><br />
 
-                                Brewing Bellaroma by Seven Miles &#9749; in Northgate, Queensland <br/>(ask me where!)
+                                Completing my Bachelor Degree in Information Technology, majoring in Computer Science at the University of Southern Queensland.<br /><br />
+
+                                Brewing Bellaroma by Seven Miles &#9749; in Northgate, Queensland <br />(ask me where!)
                             </div>
                         </div>
-                        
                     </div>
-                    <Btnbounce />
                 </div>
-                <hr className='mx-3 mb-20'/>
+                <hr className='mx-3 mb-20' />
                 <Techstack />
-                <hr className='mx-3 mb-20 mt-20'/>
+                <hr className='mx-3 mb-20 mt-20' />
                 <div className='mb-20'><Teaser /></div>
                 <Script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></Script>
             </body>
